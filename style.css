@@ -1,6 +1,21 @@
 body {background-color: #e6ffe6;}
+h1{
+	color:#99cc00;
+	text-align:center;
+}
+h3{
+	color:#29a329;
+}	
 div a {
   font-size: 50px;
   color:#99cc00;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
 }
 

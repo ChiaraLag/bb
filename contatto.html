@@ -1,6 +1,15 @@
-<!DOCTYPE html>
+<!DOCTYPE html><meta charset="utf-8">
+<link rel="stylesheet" href="style.css" type="text/css">
 <html>
 <head>
+<style>
+input:focus {
+  background-color: #33cc33;
+}
+form{
+	background-color: #e6ffe6;
+}
+</style>
 <title>Home B&B Luna Piena</title>
 </head>
 <body>
@@ -8,16 +17,12 @@
 <h1>B&B Luna Piena</h1>
 
 <h3>Invia una mail a bblunapiena@gmail.com:</h3>
-<form action="MAILTO:bblunapiena@gmail.com"
-method="post"
-enctype="text/plain">
-Nome:<br><input type="text" name="Nome" value="il tuo nome"><br>
-E-mail:<br><input type="text" name="mail"
-value="la tua email"><br>
-Commento:<br><input type="text" name="commenti"
-value="inserisci qui il tuo commento"size="50"><br>
-<input type="submit" value="Invia!">
-<input type="reset" value="Reset">
+<form action="MAILTO:bblunapiena@gmail.com" method="post" enctype="text/plain">
+	Nome:<br><input type="text" name="Nome" value="il tuo nome"><br>
+	E-mail:<br><input type="text" name="mail"value="la tua email"><br>
+	Commento:<br><input type="text" name="commenti" value="inserisci qui il tuo commento"size="50"><br>
+	<input type="submit" value="Invia!">
+	<input type="reset" value="Reset">
 </form>
 
 
